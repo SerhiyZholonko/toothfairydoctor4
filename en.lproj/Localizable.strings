@@ -1,0 +1,90 @@
+/* 
+  Localizable.strings
+  nHealthProject
+
+  Created by admin on 02.03.2021.
+*/
+"phone_num_count" = "Please enter a valid phone number";
+"number_phone_enter" = "You number phone";
+"pod_title_view_controller" = "(Tooth Fairy ImPerio 4D doctor's AW of clinics management system)";
+
+"fill_in_the_blank_fields" = "Fill in the blank fields";
+"settings" = "Settings";
+"not_now" = "Not now";
+"save_data" = "Save data";
+"start_time" = "Start";
+"end_time" = "End";
+
+"empty_fields" = "Fields cannot be empty";
+"server_connection_error" = "Connection error";
+"server_is_out_of_date" = "Server version is out of date";
+"server_version_nfound" = "Server version no found";
+"mac_adress_messeage" = "Number phone not found";
+"setting_label" = "Setting";
+"regular_patient" = "Regular";
+"new_patient" = "New";
+
+"search_label" = "Search";
+"patient_localizable" = "Patient";
+"write_down" = "Reception";
+"date_and_time" = "Date and time";
+
+"enter_login" = "Enter login";
+"enter_password" = "Enter password";
+
+
+
+"error_title" = "Error!";
+"error_alert_messeage" = "Enter the correct server details";
+"no_data" = "There is no data";
+
+"the_room" = "Room";
+
+"enter_button" = "Enter";
+"server_button" = "Select server";
+"back_button" = "Back";
+"continue_button" = "Continue";
+
+"name_placeholder" = "Name";
+"surname_placeholder" = "Surname";
+"patronymic_placeholder" = "Patronymic";
+"number_phone" = "Phone";
+"comment_placeholder" = "Note";
+
+"yes" = "Yes";
+"no" = "No";
+
+"account_out" = "Sign out of your account?";
+"account_out_messeage" = "You will have to log in again";
+
+"sorry_title" = "Sorry";
+"not_correct_data" = "Incorrect entered data";
+
+"time_register" = "Time and date";
+//weekday
+"1_day" = "Sunday";
+"2_day" = "Monday";
+"3_day" = "Tuesday";
+"4_day" = "Wednesday";
+"5_day" = "Thursday";
+"6_day" = "Friday";
+"7_day" = "Saturday";
+
+//monthname
+"1_month" = "January";
+"2_month" = "February";
+"3_month" = "March";
+"4_month" = "April";
+"5_month" = "May";
+"6_month" = "June";
+"7_month" = "July";
+"8_month" = "August";
+"9_month" = "September";
+"10_month" = "October";
+"11_month" = "November";
+"12_month" = "December";
+
+//room setting
+"change_room_label" = "Change room:";
+"change_language_label" = "Change language:";
+"work_time_label" = "Work time";

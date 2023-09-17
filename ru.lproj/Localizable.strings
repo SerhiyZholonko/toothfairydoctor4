@@ -1,0 +1,97 @@
+/*
+  Localizable.strings
+  nHealthProject
+
+  Created by admin on 02.03.2021.
+ */
+"phone_num_count" = "Пожалуйста введите действительный номер телефона";
+
+"pod_title_view_controller" = "(APM Врача системы управления клиниками Зубная Фея ImPerio 4D)";
+
+
+"fill_in_the_blank_fields" = "Заполните пустые поля";
+
+"settings" = "Настройки";
+
+"save_data" = "Сохранить данные";
+"not_now" = "Не сейчас";
+
+"start_time" = "Начало";
+"end_time" = "Конец";
+
+"server_is_out_of_date" = "Версия сервера устарела";
+"server_connection_error" = "Ошибка подключения";
+"mac_adress_messeage" = "Мак-адресс не найден";
+"server_version_nfound" = "Версия сервера не найдена";
+
+
+"setting_label" = "Настройки";
+
+"regular_patient" = "Регулярный";
+"new_patient" = "Новый";
+
+"date_and_time" = "Дата и время";
+
+"search_label" = "Поиск";
+
+"patient_localizable" = "Пациент";
+"write_down" = "Приём";
+
+"enter_login" = "Введите логин";
+"enter_password" = "Введите пароль";
+
+"error_title" = "Ошибка!";
+"error_alert_messeage" = "Введите корректные данные сервера";
+"no_data" = "Нет данных";
+
+"the_room" = "Комната";
+
+
+"enter_button" = "Вход";
+"server_button" = "Выбрать сервер";
+"back_button" = "Назад";
+"continue_button" = "Продолжить";
+
+"name_placeholder" = "Имя";
+"surname_placeholder" = "Фамилия";
+"patronymic_placeholder" = "Отчество";
+"number_phone" = "Телефон";
+"comment_placeholder" = "Коментарий";
+
+"yes" = "Да";
+"no" = "Нет";
+
+"account_out" = "Выйти с аккаунта?";
+"account_out_messeage" = "Вам придеться заново авторизоваться";
+
+"sorry_title" = "Извините";
+"not_correct_data" = "Неверно введенные данные";
+"time_register" = "Время и дата";
+
+//weekday
+"1_day" = "Воскресенье";
+"2_day" = "Понедельник";
+"3_day" = "Вторник";
+"4_day" = "Среда";
+"5_day" = "Четверг";
+"6_day" = "Пятница";
+"7_day" = "Суббота";
+
+//monthname
+"1_month" = "Январь";
+"2_month" = "Февраль";
+"3_month" = "Март";
+"4_month" = "Апрель";
+"5_month" = "Май";
+"6_month" = "Июнь";
+"7_month" = "Июль";
+"8_month" = "Август";
+"9_month" = "Сентябрь";
+"10_month" = "Октябрь";
+"11_month" = "Ноябрь";
+"12_month" = "Декабрь";
+
+//room setting
+"change_room_label" = "Изменить комнату:";
+"change_language_label" = "Изменить язык:";
+"work_time_label" = "Рабочее время";

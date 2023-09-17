@@ -1,0 +1,101 @@
+/* 
+  Localizable.strings
+  nHealthProject
+
+  Created by admin on 02.03.2021.
+*/
+"phone_num_count" = "Будь-ласка ведить дiйсний номер телефону";
+
+"number_phone_enter" = "Ваш номер телефону";
+
+"pod_title_view_controller" = "(APM Лікаря системи управління клініками Зубна Фея ImPerio 4D ";
+
+"fill_in_the_blank_fields" = "Заповніть порожні поля";
+
+"settings" = "Налаштування";
+
+"save_data" = "Зберегти дані";
+"not_now" = "Не зараз";
+
+"start_time" = "Початок";
+"end_time" = "Кiнець";
+
+"empty_fields" = "Поля не можуть бути порожніми";
+"server_is_out_of_date" = "Версія сервера застаріла";
+"server_connection_error" = "Помилка підключення";
+"mac_adress_messeage" = "Номер не знайден";
+"server_version_nfound" = "Версiя сервера не знайдена";
+
+"setting_label" = "Налаштування";
+
+"regular_patient" = "Регулярний";
+"new_patient" = "Новий";
+
+"date_and_time" = "Дата та час";
+
+"search_label" = "Пошук";
+
+"patient_localizable" = "Пацiєнт";
+"write_down" = "Прийом";
+
+"enter_login" = "Введіть логин";
+"enter_password" = "Введіть пароль";
+
+"error_title" = "Помилка!";
+"error_alert_messeage" = "Введiть коректнi даннi сервера";
+
+"no_data" = "Нема данних";
+
+"the_room" = "Кiмната";
+
+
+"enter_button" = "Вхід";
+"server_button" = "Обрати сервер";
+"back_button" = "Назад";
+"continue_button" = "Далі";
+
+"name_placeholder" = "Ім'я";
+"surname_placeholder" = "Фамілія";
+"patronymic_placeholder" = "По-батькові";
+"number_phone" = "Телефон";
+"comment_placeholder" = "Коментар";
+
+"yes" = "Так";
+"no" = "Нi";
+
+"account_out" = "Вийти з аккаунту?";
+"account_out_messeage" = "Вам доведется знову авторизуватись";
+
+"sorry_title" = "Вибaчте";
+"not_correct_data" = "Невiрно введенi даннi";
+
+"time_register" = "Час та дата";
+
+//weekday
+"1_day" = "Недiля";
+"2_day" = "Понедiлок";
+"3_day" = "Вiвторок";
+"4_day" = "Середа";
+"5_day" = "Четвер";
+"6_day" = "П'ятниця";
+"7_day" = "Субота";
+
+//monthname
+"1_month" = "Січень";
+"2_month" = "Лютий";
+"3_month" = "Березень";
+"4_month" = "Квітень";
+"5_month" = "Травень";
+"6_month" = "Червень";
+"7_month" = "Липень";
+"8_month" = "Серпень";
+"9_month" = "Вересень";
+"10_month" = "Жовтень";
+"11_month" = "Листопад";
+"12_month" = "Грудень";
+
+//room setting
+"change_room_label" = "Змiнити кiмнату:";
+"change_language_label" = "Змiнити мову:";
+"work_time_label" = "Робочий час";
+

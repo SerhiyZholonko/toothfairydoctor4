@@ -1,0 +1,986 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 53;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		182EC04E2AB332F600C522FA /* CheckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182EC04D2AB332F600C522FA /* CheckView.swift */; };
+		209C98E9E6A876AD0F9E47C0 /* Pods_nHealthProject_nHealthProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 515D6921C92225C6D0152DC2 /* Pods_nHealthProject_nHealthProjectUITests.framework */; };
+		2361DFD9C08C5588BADE4723 /* Pods_nHealthProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C91FB5B718B4A3B0E0CF822E /* Pods_nHealthProject.framework */; };
+		840DF13125D50C98000B780E /* CalendarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840DF13025D50C98000B780E /* CalendarVC.swift */; };
+		84109B9925EE274500EFA387 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84109B9B25EE274500EFA387 /* Localizable.strings */; };
+		8438A7D825ECD3730075C1B3 /* ServerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8438A7D725ECD3730075C1B3 /* ServerVC.swift */; };
+		84466CEC261354D30055557D /* NumberPhoneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84466CEB261354D30055557D /* NumberPhoneVC.swift */; };
+		845219D125D67FD40051236A /* ModelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845219D025D67FD40051236A /* ModelCell.swift */; };
+		845219DE25D689030051236A /* PatientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845219DD25D689030051236A /* PatientViewController.swift */; };
+		845219E325D6A92E0051236A /* PacientCollectionVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845219E225D6A92E0051236A /* PacientCollectionVCell.swift */; };
+		84636E9D25F251C20061324C /* ContentPatientVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84636E9C25F251C20061324C /* ContentPatientVC.swift */; };
+		847526DE25D1382200F10FF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847526DD25D1382200F10FF7 /* AppDelegate.swift */; };
+		847526E025D1382200F10FF7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847526DF25D1382200F10FF7 /* SceneDelegate.swift */; };
+		847526E225D1382200F10FF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847526E125D1382200F10FF7 /* ViewController.swift */; };
+		847526E525D1382200F10FF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847526E325D1382200F10FF7 /* Main.storyboard */; };
+		847526E825D1382200F10FF7 /* nHealthProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 847526E625D1382200F10FF7 /* nHealthProject.xcdatamodeld */; };
+		847526EA25D1383900F10FF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847526E925D1383900F10FF7 /* Assets.xcassets */; };
+		847526ED25D1383900F10FF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847526EB25D1383900F10FF7 /* LaunchScreen.storyboard */; };
+		847526F825D1383900F10FF7 /* nHealthProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847526F725D1383900F10FF7 /* nHealthProjectTests.swift */; };
+		8475270325D1383900F10FF7 /* nHealthProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8475270225D1383900F10FF7 /* nHealthProjectUITests.swift */; };
+		8475271425D1386300F10FF7 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8475271325D1386300F10FF7 /* ViewModel.swift */; };
+		8475271925D138AD00F10FF7 /* ModelEnter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8475271825D138AD00F10FF7 /* ModelEnter.swift */; };
+		8475271E25D1391D00F10FF7 /* PrototypeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8475271D25D1391D00F10FF7 /* PrototypeVC.swift */; };
+		8475272325D139CF00F10FF7 /* ModelPrototype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8475272225D139CF00F10FF7 /* ModelPrototype.swift */; };
+		8475273725D1538200F10FF7 /* FirstAccVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8475273625D1538200F10FF7 /* FirstAccVC.swift */; };
+		8475274925D179F700F10FF7 /* Requests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8475274825D179F700F10FF7 /* Requests.swift */; };
+		8475274E25D17A2200F10FF7 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8475274D25D17A2200F10FF7 /* UserModel.swift */; };
+		84908EA02600FAEC007738D3 /* RecordingPatient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84908E9F2600FAEB007738D3 /* RecordingPatient.swift */; };
+		84908EA526014B08007738D3 /* TableViewCellRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84908EA426014B08007738D3 /* TableViewCellRecord.swift */; };
+		84908EAD26015AED007738D3 /* LazyPatientController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84908EAC26015AED007738D3 /* LazyPatientController.swift */; };
+		849216DF26076D71007201F5 /* TimeRecordingsVС.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849216DE26076D70007201F5 /* TimeRecordingsVС.swift */; };
+		849216E726077EA4007201F5 /* NotesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849216E626077EA4007201F5 /* NotesController.swift */; };
+		84C3113E25F9FD1600C44F9A /* SettingInAccVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C3113D25F9FD1500C44F9A /* SettingInAccVC.swift */; };
+		84C94924260DD08000BF090C /* NewNotesOnScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C94923260DD08000BF090C /* NewNotesOnScrollView.swift */; };
+		A7EB6E34EE24B46C026A49DD /* Pods_nHealthProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 947D573D0BCD2DD0AA2A9592 /* Pods_nHealthProjectTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		847526F425D1383900F10FF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 847526D225D1382200F10FF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 847526D925D1382200F10FF7;
+			remoteInfo = nHealthProject;
+		};
+		847526FF25D1383900F10FF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 847526D225D1382200F10FF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 847526D925D1382200F10FF7;
+			remoteInfo = nHealthProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		182EC04D2AB332F600C522FA /* CheckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckView.swift; sourceTree = "<group>"; };
+		494013FC7073B89894D2BBC3 /* Pods-nHealthProject-nHealthProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nHealthProject-nHealthProjectUITests.debug.xcconfig"; path = "Target Support Files/Pods-nHealthProject-nHealthProjectUITests/Pods-nHealthProject-nHealthProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		515D6921C92225C6D0152DC2 /* Pods_nHealthProject_nHealthProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nHealthProject_nHealthProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7398DECDD58A453C8F798E30 /* Pods-nHealthProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nHealthProjectTests.release.xcconfig"; path = "Target Support Files/Pods-nHealthProjectTests/Pods-nHealthProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		7425716D36BBD215ADB9EC0E /* Pods-nHealthProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nHealthProject.debug.xcconfig"; path = "Target Support Files/Pods-nHealthProject/Pods-nHealthProject.debug.xcconfig"; sourceTree = "<group>"; };
+		840DF13025D50C98000B780E /* CalendarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarVC.swift; sourceTree = "<group>"; };
+		84109B9A25EE274500EFA387 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		84109BA225EE279000EFA387 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		84109BA325EE280100EFA387 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8438A7D725ECD3730075C1B3 /* ServerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerVC.swift; sourceTree = "<group>"; };
+		84466CEB261354D30055557D /* NumberPhoneVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberPhoneVC.swift; sourceTree = "<group>"; };
+		845219D025D67FD40051236A /* ModelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelCell.swift; sourceTree = "<group>"; };
+		845219DD25D689030051236A /* PatientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientViewController.swift; sourceTree = "<group>"; };
+		845219E225D6A92E0051236A /* PacientCollectionVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacientCollectionVCell.swift; sourceTree = "<group>"; };
+		84636E9C25F251C20061324C /* ContentPatientVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentPatientVC.swift; sourceTree = "<group>"; };
+		847526DA25D1382200F10FF7 /* nHealthProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nHealthProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		847526DD25D1382200F10FF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		847526DF25D1382200F10FF7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		847526E125D1382200F10FF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; usesTabs = 0; };
+		847526E425D1382200F10FF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		847526E725D1382200F10FF7 /* nHealthProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = nHealthProject.xcdatamodel; sourceTree = "<group>"; };
+		847526E925D1383900F10FF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		847526EC25D1383900F10FF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		847526EE25D1383900F10FF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		847526F325D1383900F10FF7 /* nHealthProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nHealthProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		847526F725D1383900F10FF7 /* nHealthProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nHealthProjectTests.swift; sourceTree = "<group>"; };
+		847526F925D1383900F10FF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		847526FE25D1383900F10FF7 /* nHealthProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nHealthProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8475270225D1383900F10FF7 /* nHealthProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nHealthProjectUITests.swift; sourceTree = "<group>"; };
+		8475270425D1383900F10FF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8475271325D1386300F10FF7 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		8475271825D138AD00F10FF7 /* ModelEnter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelEnter.swift; sourceTree = "<group>"; };
+		8475271D25D1391D00F10FF7 /* PrototypeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeVC.swift; sourceTree = "<group>"; };
+		8475272225D139CF00F10FF7 /* ModelPrototype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelPrototype.swift; sourceTree = "<group>"; };
+		8475273625D1538200F10FF7 /* FirstAccVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAccVC.swift; sourceTree = "<group>"; };
+		8475274825D179F700F10FF7 /* Requests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Requests.swift; sourceTree = "<group>"; };
+		8475274D25D17A2200F10FF7 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		84908E9F2600FAEB007738D3 /* RecordingPatient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingPatient.swift; sourceTree = "<group>"; };
+		84908EA426014B08007738D3 /* TableViewCellRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellRecord.swift; sourceTree = "<group>"; };
+		84908EAC26015AED007738D3 /* LazyPatientController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyPatientController.swift; sourceTree = "<group>"; };
+		849216DE26076D70007201F5 /* TimeRecordingsVС.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeRecordingsVС.swift"; sourceTree = "<group>"; };
+		849216E626077EA4007201F5 /* NotesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesController.swift; sourceTree = "<group>"; };
+		84C3113D25F9FD1500C44F9A /* SettingInAccVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingInAccVC.swift; sourceTree = "<group>"; };
+		84C94923260DD08000BF090C /* NewNotesOnScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewNotesOnScrollView.swift; sourceTree = "<group>"; };
+		947D573D0BCD2DD0AA2A9592 /* Pods_nHealthProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nHealthProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACFF05BE313E286DAC08E297 /* Pods-nHealthProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nHealthProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-nHealthProjectTests/Pods-nHealthProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B9916B73BAA77625C5C75801 /* Pods-nHealthProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nHealthProject.release.xcconfig"; path = "Target Support Files/Pods-nHealthProject/Pods-nHealthProject.release.xcconfig"; sourceTree = "<group>"; };
+		C91FB5B718B4A3B0E0CF822E /* Pods_nHealthProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nHealthProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6BDAF7A8A08A113107F5A4B /* Pods-nHealthProject-nHealthProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nHealthProject-nHealthProjectUITests.release.xcconfig"; path = "Target Support Files/Pods-nHealthProject-nHealthProjectUITests/Pods-nHealthProject-nHealthProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		847526D725D1382200F10FF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2361DFD9C08C5588BADE4723 /* Pods_nHealthProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847526F025D1383900F10FF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7EB6E34EE24B46C026A49DD /* Pods_nHealthProjectTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847526FB25D1383900F10FF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209C98E9E6A876AD0F9E47C0 /* Pods_nHealthProject_nHealthProjectUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		182EC04C2AB332D900C522FA /* CheckView */ = {
+			isa = PBXGroup;
+			children = (
+				182EC04D2AB332F600C522FA /* CheckView.swift */,
+			);
+			path = CheckView;
+			sourceTree = "<group>";
+		};
+		1DC1F924E140732C9DCB98FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C91FB5B718B4A3B0E0CF822E /* Pods_nHealthProject.framework */,
+				515D6921C92225C6D0152DC2 /* Pods_nHealthProject_nHealthProjectUITests.framework */,
+				947D573D0BCD2DD0AA2A9592 /* Pods_nHealthProjectTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		844EC6B525DD1BFF007A910A /* ViewingPatients  */ = {
+			isa = PBXGroup;
+			children = (
+				840DF13025D50C98000B780E /* CalendarVC.swift */,
+				845219DD25D689030051236A /* PatientViewController.swift */,
+				84636E9C25F251C20061324C /* ContentPatientVC.swift */,
+			);
+			path = "ViewingPatients ";
+			sourceTree = "<group>";
+		};
+		844EC6B625DD1C3B007A910A /* ViewingPatientsCells */ = {
+			isa = PBXGroup;
+			children = (
+				845219E225D6A92E0051236A /* PacientCollectionVCell.swift */,
+			);
+			path = ViewingPatientsCells;
+			sourceTree = "<group>";
+		};
+		844EC6B725DD1C65007A910A /* PatientRegisterVC */ = {
+			isa = PBXGroup;
+			children = (
+				84908E9F2600FAEB007738D3 /* RecordingPatient.swift */,
+				84908EAC26015AED007738D3 /* LazyPatientController.swift */,
+				84C94923260DD08000BF090C /* NewNotesOnScrollView.swift */,
+				849216DE26076D70007201F5 /* TimeRecordingsVС.swift */,
+				849216E626077EA4007201F5 /* NotesController.swift */,
+			);
+			path = PatientRegisterVC;
+			sourceTree = "<group>";
+		};
+		844EC6D425DD272D007A910A /* PatientRecordCells */ = {
+			isa = PBXGroup;
+			children = (
+				84908EA426014B08007738D3 /* TableViewCellRecord.swift */,
+			);
+			path = PatientRecordCells;
+			sourceTree = "<group>";
+		};
+		847526D125D1382200F10FF7 = {
+			isa = PBXGroup;
+			children = (
+				84109B9B25EE274500EFA387 /* Localizable.strings */,
+				847526DC25D1382200F10FF7 /* nHealthProject */,
+				847526F625D1383900F10FF7 /* nHealthProjectTests */,
+				8475270125D1383900F10FF7 /* nHealthProjectUITests */,
+				847526DB25D1382200F10FF7 /* Products */,
+				FD1A6A77B81F49BDCAC61690 /* Pods */,
+				1DC1F924E140732C9DCB98FF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+		847526DB25D1382200F10FF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				847526DA25D1382200F10FF7 /* nHealthProject.app */,
+				847526F325D1383900F10FF7 /* nHealthProjectTests.xctest */,
+				847526FE25D1383900F10FF7 /* nHealthProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		847526DC25D1382200F10FF7 /* nHealthProject */ = {
+			isa = PBXGroup;
+			children = (
+				847526DD25D1382200F10FF7 /* AppDelegate.swift */,
+				847526DF25D1382200F10FF7 /* SceneDelegate.swift */,
+				8475271D25D1391D00F10FF7 /* PrototypeVC.swift */,
+				8475276625D2777E00F10FF7 /* View */,
+				8475272725D13A0E00F10FF7 /* Model */,
+				8475272825D13A2800F10FF7 /* ViewModel */,
+				847526E325D1382200F10FF7 /* Main.storyboard */,
+				847526E925D1383900F10FF7 /* Assets.xcassets */,
+				847526EB25D1383900F10FF7 /* LaunchScreen.storyboard */,
+				847526EE25D1383900F10FF7 /* Info.plist */,
+				847526E625D1382200F10FF7 /* nHealthProject.xcdatamodeld */,
+			);
+			path = nHealthProject;
+			sourceTree = "<group>";
+		};
+		847526F625D1383900F10FF7 /* nHealthProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				847526F725D1383900F10FF7 /* nHealthProjectTests.swift */,
+				847526F925D1383900F10FF7 /* Info.plist */,
+			);
+			path = nHealthProjectTests;
+			sourceTree = "<group>";
+		};
+		8475270125D1383900F10FF7 /* nHealthProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8475270225D1383900F10FF7 /* nHealthProjectUITests.swift */,
+				8475270425D1383900F10FF7 /* Info.plist */,
+			);
+			path = nHealthProjectUITests;
+			sourceTree = "<group>";
+		};
+		8475272725D13A0E00F10FF7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8475275B25D276A600F10FF7 /* Model(View) */,
+				8475276725D2779E00F10FF7 /* ModelJSON */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8475272825D13A2800F10FF7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8475271325D1386300F10FF7 /* ViewModel.swift */,
+				8475274825D179F700F10FF7 /* Requests.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8475272925D13A3300F10FF7 /* View(Controllers) */ = {
+			isa = PBXGroup;
+			children = (
+				8438A7D725ECD3730075C1B3 /* ServerVC.swift */,
+				84466CEB261354D30055557D /* NumberPhoneVC.swift */,
+				847526E125D1382200F10FF7 /* ViewController.swift */,
+				8475273625D1538200F10FF7 /* FirstAccVC.swift */,
+				84C3113D25F9FD1500C44F9A /* SettingInAccVC.swift */,
+				844EC6B525DD1BFF007A910A /* ViewingPatients  */,
+				844EC6B725DD1C65007A910A /* PatientRegisterVC */,
+			);
+			path = "View(Controllers)";
+			sourceTree = "<group>";
+		};
+		8475275225D275FD00F10FF7 /* View(Cells) */ = {
+			isa = PBXGroup;
+			children = (
+				182EC04C2AB332D900C522FA /* CheckView */,
+				844EC6B625DD1C3B007A910A /* ViewingPatientsCells */,
+				844EC6D425DD272D007A910A /* PatientRecordCells */,
+			);
+			path = "View(Cells)";
+			sourceTree = "<group>";
+		};
+		8475275B25D276A600F10FF7 /* Model(View) */ = {
+			isa = PBXGroup;
+			children = (
+				8475272225D139CF00F10FF7 /* ModelPrototype.swift */,
+				845219D025D67FD40051236A /* ModelCell.swift */,
+			);
+			path = "Model(View)";
+			sourceTree = "<group>";
+		};
+		8475276625D2777E00F10FF7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8475272925D13A3300F10FF7 /* View(Controllers) */,
+				8475275225D275FD00F10FF7 /* View(Cells) */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8475276725D2779E00F10FF7 /* ModelJSON */ = {
+			isa = PBXGroup;
+			children = (
+				8475271825D138AD00F10FF7 /* ModelEnter.swift */,
+				8475274D25D17A2200F10FF7 /* UserModel.swift */,
+			);
+			path = ModelJSON;
+			sourceTree = "<group>";
+		};
+		FD1A6A77B81F49BDCAC61690 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7425716D36BBD215ADB9EC0E /* Pods-nHealthProject.debug.xcconfig */,
+				B9916B73BAA77625C5C75801 /* Pods-nHealthProject.release.xcconfig */,
+				494013FC7073B89894D2BBC3 /* Pods-nHealthProject-nHealthProjectUITests.debug.xcconfig */,
+				D6BDAF7A8A08A113107F5A4B /* Pods-nHealthProject-nHealthProjectUITests.release.xcconfig */,
+				ACFF05BE313E286DAC08E297 /* Pods-nHealthProjectTests.debug.xcconfig */,
+				7398DECDD58A453C8F798E30 /* Pods-nHealthProjectTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		847526D925D1382200F10FF7 /* nHealthProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8475270725D1383900F10FF7 /* Build configuration list for PBXNativeTarget "nHealthProject" */;
+			buildPhases = (
+				06ACA89A3E67AB4816533029 /* [CP] Check Pods Manifest.lock */,
+				847526D625D1382200F10FF7 /* Sources */,
+				847526D725D1382200F10FF7 /* Frameworks */,
+				847526D825D1382200F10FF7 /* Resources */,
+				C67A8A0CA369A76B2073744F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nHealthProject;
+			productName = nHealthProject;
+			productReference = 847526DA25D1382200F10FF7 /* nHealthProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		847526F225D1383900F10FF7 /* nHealthProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8475270A25D1383900F10FF7 /* Build configuration list for PBXNativeTarget "nHealthProjectTests" */;
+			buildPhases = (
+				1D6BF290D49C7DD60A5188A4 /* [CP] Check Pods Manifest.lock */,
+				847526EF25D1383900F10FF7 /* Sources */,
+				847526F025D1383900F10FF7 /* Frameworks */,
+				847526F125D1383900F10FF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				847526F525D1383900F10FF7 /* PBXTargetDependency */,
+			);
+			name = nHealthProjectTests;
+			productName = nHealthProjectTests;
+			productReference = 847526F325D1383900F10FF7 /* nHealthProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		847526FD25D1383900F10FF7 /* nHealthProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8475270D25D1383900F10FF7 /* Build configuration list for PBXNativeTarget "nHealthProjectUITests" */;
+			buildPhases = (
+				09F525F7B802FDD068E38D9A /* [CP] Check Pods Manifest.lock */,
+				847526FA25D1383900F10FF7 /* Sources */,
+				847526FB25D1383900F10FF7 /* Frameworks */,
+				847526FC25D1383900F10FF7 /* Resources */,
+				2518A206BA1A16AB9D446189 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8475270025D1383900F10FF7 /* PBXTargetDependency */,
+			);
+			name = nHealthProjectUITests;
+			productName = nHealthProjectUITests;
+			productReference = 847526FE25D1383900F10FF7 /* nHealthProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		847526D225D1382200F10FF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					847526D925D1382200F10FF7 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					847526F225D1383900F10FF7 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 847526D925D1382200F10FF7;
+					};
+					847526FD25D1383900F10FF7 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 847526D925D1382200F10FF7;
+					};
+				};
+			};
+			buildConfigurationList = 847526D525D1382200F10FF7 /* Build configuration list for PBXProject "nHealthProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+				uk,
+			);
+			mainGroup = 847526D125D1382200F10FF7;
+			productRefGroup = 847526DB25D1382200F10FF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				847526D925D1382200F10FF7 /* nHealthProject */,
+				847526F225D1383900F10FF7 /* nHealthProjectTests */,
+				847526FD25D1383900F10FF7 /* nHealthProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		847526D825D1382200F10FF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847526ED25D1383900F10FF7 /* LaunchScreen.storyboard in Resources */,
+				84109B9925EE274500EFA387 /* Localizable.strings in Resources */,
+				847526EA25D1383900F10FF7 /* Assets.xcassets in Resources */,
+				847526E525D1382200F10FF7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847526F125D1383900F10FF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847526FC25D1383900F10FF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06ACA89A3E67AB4816533029 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-nHealthProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		09F525F7B802FDD068E38D9A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-nHealthProject-nHealthProjectUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1D6BF290D49C7DD60A5188A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-nHealthProjectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2518A206BA1A16AB9D446189 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nHealthProject-nHealthProjectUITests/Pods-nHealthProject-nHealthProjectUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nHealthProject-nHealthProjectUITests/Pods-nHealthProject-nHealthProjectUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nHealthProject-nHealthProjectUITests/Pods-nHealthProject-nHealthProjectUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C67A8A0CA369A76B2073744F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nHealthProject/Pods-nHealthProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nHealthProject/Pods-nHealthProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nHealthProject/Pods-nHealthProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		847526D625D1382200F10FF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8475271425D1386300F10FF7 /* ViewModel.swift in Sources */,
+				8475273725D1538200F10FF7 /* FirstAccVC.swift in Sources */,
+				840DF13125D50C98000B780E /* CalendarVC.swift in Sources */,
+				8438A7D825ECD3730075C1B3 /* ServerVC.swift in Sources */,
+				84466CEC261354D30055557D /* NumberPhoneVC.swift in Sources */,
+				847526E225D1382200F10FF7 /* ViewController.swift in Sources */,
+				845219D125D67FD40051236A /* ModelCell.swift in Sources */,
+				8475274925D179F700F10FF7 /* Requests.swift in Sources */,
+				84908EAD26015AED007738D3 /* LazyPatientController.swift in Sources */,
+				8475271925D138AD00F10FF7 /* ModelEnter.swift in Sources */,
+				847526DE25D1382200F10FF7 /* AppDelegate.swift in Sources */,
+				849216E726077EA4007201F5 /* NotesController.swift in Sources */,
+				847526E825D1382200F10FF7 /* nHealthProject.xcdatamodeld in Sources */,
+				84908EA02600FAEC007738D3 /* RecordingPatient.swift in Sources */,
+				8475271E25D1391D00F10FF7 /* PrototypeVC.swift in Sources */,
+				8475272325D139CF00F10FF7 /* ModelPrototype.swift in Sources */,
+				84C3113E25F9FD1600C44F9A /* SettingInAccVC.swift in Sources */,
+				84908EA526014B08007738D3 /* TableViewCellRecord.swift in Sources */,
+				847526E025D1382200F10FF7 /* SceneDelegate.swift in Sources */,
+				84636E9D25F251C20061324C /* ContentPatientVC.swift in Sources */,
+				845219E325D6A92E0051236A /* PacientCollectionVCell.swift in Sources */,
+				8475274E25D17A2200F10FF7 /* UserModel.swift in Sources */,
+				845219DE25D689030051236A /* PatientViewController.swift in Sources */,
+				182EC04E2AB332F600C522FA /* CheckView.swift in Sources */,
+				849216DF26076D71007201F5 /* TimeRecordingsVС.swift in Sources */,
+				84C94924260DD08000BF090C /* NewNotesOnScrollView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847526EF25D1383900F10FF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847526F825D1383900F10FF7 /* nHealthProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847526FA25D1383900F10FF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8475270325D1383900F10FF7 /* nHealthProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		847526F525D1383900F10FF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 847526D925D1382200F10FF7 /* nHealthProject */;
+			targetProxy = 847526F425D1383900F10FF7 /* PBXContainerItemProxy */;
+		};
+		8475270025D1383900F10FF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 847526D925D1382200F10FF7 /* nHealthProject */;
+			targetProxy = 847526FF25D1383900F10FF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84109B9B25EE274500EFA387 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84109B9A25EE274500EFA387 /* en */,
+				84109BA225EE279000EFA387 /* ru */,
+				84109BA325EE280100EFA387 /* uk */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+		847526E325D1382200F10FF7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				847526E425D1382200F10FF7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		847526EB25D1383900F10FF7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				847526EC25D1383900F10FF7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8475270525D1383900F10FF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				"SDKROOT[arch=*]" = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8475270625D1383900F10FF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8475270825D1383900F10FF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7425716D36BBD215ADB9EC0E /* Pods-nHealthProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4BBUSC332Y;
+				INFOPLIST_FILE = nHealthProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = Zolonko.Doctor.identifier;
+				PRODUCT_NAME = nHealthProject;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8475270925D1383900F10FF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9916B73BAA77625C5C75801 /* Pods-nHealthProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4BBUSC332Y;
+				INFOPLIST_FILE = nHealthProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = Zolonko.Doctor.identifier;
+				PRODUCT_NAME = nHealthProject;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8475270B25D1383900F10FF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACFF05BE313E286DAC08E297 /* Pods-nHealthProjectTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4BBUSC332Y;
+				INFOPLIST_FILE = nHealthProjectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-111.nHealthProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nHealthProject.app/nHealthProject";
+			};
+			name = Debug;
+		};
+		8475270C25D1383900F10FF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7398DECDD58A453C8F798E30 /* Pods-nHealthProjectTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4BBUSC332Y;
+				INFOPLIST_FILE = nHealthProjectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-111.nHealthProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nHealthProject.app/nHealthProject";
+			};
+			name = Release;
+		};
+		8475270E25D1383900F10FF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 494013FC7073B89894D2BBC3 /* Pods-nHealthProject-nHealthProjectUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4BBUSC332Y;
+				INFOPLIST_FILE = nHealthProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-111.nHealthProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = nHealthProject;
+			};
+			name = Debug;
+		};
+		8475270F25D1383900F10FF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6BDAF7A8A08A113107F5A4B /* Pods-nHealthProject-nHealthProjectUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4BBUSC332Y;
+				INFOPLIST_FILE = nHealthProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-111.nHealthProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = nHealthProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		847526D525D1382200F10FF7 /* Build configuration list for PBXProject "nHealthProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8475270525D1383900F10FF7 /* Debug */,
+				8475270625D1383900F10FF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8475270725D1383900F10FF7 /* Build configuration list for PBXNativeTarget "nHealthProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8475270825D1383900F10FF7 /* Debug */,
+				8475270925D1383900F10FF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8475270A25D1383900F10FF7 /* Build configuration list for PBXNativeTarget "nHealthProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8475270B25D1383900F10FF7 /* Debug */,
+				8475270C25D1383900F10FF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8475270D25D1383900F10FF7 /* Build configuration list for PBXNativeTarget "nHealthProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8475270E25D1383900F10FF7 /* Debug */,
+				8475270F25D1383900F10FF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		847526E625D1382200F10FF7 /* nHealthProject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				847526E725D1382200F10FF7 /* nHealthProject.xcdatamodel */,
+			);
+			currentVersion = 847526E725D1382200F10FF7 /* nHealthProject.xcdatamodel */;
+			path = nHealthProject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 847526D225D1382200F10FF7 /* Project object */;
+}

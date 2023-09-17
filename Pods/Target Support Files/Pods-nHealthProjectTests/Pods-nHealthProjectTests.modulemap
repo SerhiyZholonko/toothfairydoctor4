@@ -1,0 +1,6 @@
+framework module Pods_nHealthProjectTests {
+  umbrella header "Pods-nHealthProjectTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
